@@ -4,8 +4,7 @@ import glob
 import shutil
 
 def yt_pobieracz(link_yt, nowa_nazwa):
-    #link_youtube = input('wklej link youtube: ')
-    #nowa_nazwa = input('Podaj tytul utworu: ')
+  
     nowa_nazwa = nowa_nazwa + '.mp3'
     options = {
         'format':'bestaudio/best',
@@ -32,4 +31,3 @@ def yt_pobieracz(link_yt, nowa_nazwa):
         shutil.copy(f'{nowa_nazwa}', f'GuodVibs/', follow_symlinks=True)
         os.remove(nowa_nazwa)
 
-#yt_pobieracz('https://www.youtube.com/watch?v=DbF8nHiLDNU', 'Optymista - November ')
