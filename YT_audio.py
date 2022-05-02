@@ -27,7 +27,10 @@ def yt_pobieracz(link_yt, nowa_nazwa):
 
         mp3_file = str(filepath)
         os.rename(mp3_file, nowa_nazwa)
-
+        
+        # To work this localy must be create new directory for saving audio or comment lines below.
         shutil.copy(f'{nowa_nazwa}', f'GuodVibs/', follow_symlinks=True)
         os.remove(nowa_nazwa)
+        
+        
 
