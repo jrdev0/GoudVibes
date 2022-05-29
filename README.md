@@ -1,5 +1,6 @@
-# GoudVibes
-Simple Flask Python App to download audio from youtube and different sites in polish language.
+# GoudVibes Flask Project
+
+Simple Flask Python Project to download audio from youtube and different sites in polish language.
 
 This project is prepared directly for web hosting.
 
